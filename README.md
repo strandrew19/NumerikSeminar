@@ -10,13 +10,13 @@ The dynamics of an epidemic (like flu) are often much faster than the dynamics o
 
 | Variables | Description |
 | --------- | ----------- |
-| **S**     |  Number of Susceptable Individuals|
-| **I**     | Number of Infected Individuals|
-| **R**    | Number of Recovered Individuals |
-| **\alpha**     | Basic reproduction number |
-| **\beta**     | Duration of time for recovery |
+| **$$S$$**     |  Number of Susceptable Individuals|
+| **$$I$$**     | Number of Infected Individuals|
+| **$$R$$**    | Number of Recovered Individuals |
+| **$$\alpha$$**     | Basic reproduction number |
+| **$$\beta$$**     | Duration of time for recovery |
 
-  $$\frac{dS}{dt} = -\frac{\overbrace{\alpha S}}{I}$$
+  $$\frac{dS}{dt} = -\overbrace{\alpha}\overset{Individuals}{\overbrace{SI}}$$
   
   $$\frac{dI}{dt} = \frac{\alpha S}{I} - \beta I$$
   
