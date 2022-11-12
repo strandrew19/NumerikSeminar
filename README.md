@@ -1,9 +1,6 @@
 # Numeric Seminar
-## SIR Model 
 
-
-<details><summary>Basic SIR Model</summary>
-<p>
+## Basic SIR Model
 SIR model without vital dynamics:
 
 The dynamics of an epidemic (like flu) are often much faster than the dynamics of birth and death. Therefore a SIR model without vital dynamics omits births and deaths (demography) which can be modeled by ODE's as follows:
@@ -16,11 +13,11 @@ The dynamics of an epidemic (like flu) are often much faster than the dynamics o
 | **$$\alpha$$**     | Basic reproduction number |
 | **$$\beta$$**     | Duration of time for recovery |
 
-  $$\frac{dS}{dt} = \overset{(Individuals \times Time)^{-1}}{\overbrace{-\alpha}}\overset{Individuals}{\overbrace{SI}}$$
+  $$\frac{dS}{dt} = \overset{(Individuals \times Time)^{-1}}{\overbrace{-\alpha}} \space \overset{Individuals}{\overbrace{SI}}$$
   
   $$\frac{dI}{dt} = \frac{\alpha S}{I} - \beta I$$
   
-  $$\frac{dR}{dt} = \beta I$$
+  $$\frac{dR}{dt} = \overset{Time^{-1}}{\overbrace{\beta}} I$$
 
   
 | Variables | Description |
