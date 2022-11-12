@@ -16,7 +16,7 @@ The dynamics of an epidemic (like flu) are often much faster than the dynamics o
 | **$$\alpha$$**     | Basic reproduction number |
 | **$$\beta$$**     | Duration of time for recovery |
 
-  $$\frac{dS}{dt} = -\overbrace{\alpha}\overset{Individuals}{\overbrace{SI}}$$
+  $$\frac{dS}{dt} = \overset{(Individuals x Time)^{-1}}{\overbrace{-\alpha}}\overset{Individuals}{\overbrace{SI}}$$
   
   $$\frac{dI}{dt} = \frac{\alpha S}{I} - \beta I$$
   
