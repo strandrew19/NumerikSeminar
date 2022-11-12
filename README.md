@@ -14,7 +14,7 @@
 | **S(t)**     | Number of susceptible individuals as a function of time |
 | **R(t)**     | Number of removed individuals as a function of time |
 
-$$S(t) = S(0)e^{-R_0 /frac{(R(t)-R(0))}{N}}$$
+$$S(t) = S(0)e^{-R_0 \frac{(R(t)-R(0))}{N}}$$
 
   
 </p>
